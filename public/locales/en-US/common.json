@@ -1,10 +1,10 @@
 {
   "article": {
-    "relatedArticles": "Related articles",
+    "relatedArticles": "Related recipes",
     "featured": "featured"
   },
   "landingPage": {
-    "latestArticles": "Latest articles"
+    "latestArticles": "Latest recipe"
   },
   "common": {
     "regionalSettings": "Regional Settings",
@@ -13,8 +13,8 @@
     "languageDrawer": "Toggle language drawer"
   },
   "footer": {
-    "aboutUs": "about us",
-    "description": "Our company specialises in the development of advanced technologies for a wide range of industries. We use cutting-edge techniques and algorithms to create intelligent systems that can help businesses automate tasks, improve efficiency, and drive innovation.",
+    "aboutUs": "about this site",
+    "description": "Collection of some of Nick and Nicole's favorite recipes to share with their loved ones.",
     "powerBy": "Powered by"
   },
   "notFound": {
