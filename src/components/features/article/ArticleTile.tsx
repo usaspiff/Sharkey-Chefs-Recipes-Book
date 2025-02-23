@@ -18,7 +18,8 @@ interface ArticleTileProps extends HTMLProps<HTMLDivElement> {
 }
 
 export const ArticleTile = ({ article, className }: ArticleTileProps) => {
-  const { featuredImage, publishedDate, slug, title } = useContentfulLiveUpdates(article);
+  const { featuredImage, shortDescription, publishedDate, slug, title } =
+    useContentfulLiveUpdates(article);
   const inspectorProps = useContentfulInspectorMode({ entryId: article.sys.id });
 
   return (
@@ -45,13 +46,18 @@ export const ArticleTile = ({ article, className }: ArticleTileProps) => {
           )}
 
           <div className="mt-auto flex items-center">
-            <ArticleAuthor article={article} />
-            <div
+            {/* <ArticleAuthor article={article} /> */}
+            {shortDescription && (
+              <p className="mt-2" {...inspectorProps({ fieldId: 'shortDescription' })}>
+                {shortDescription}
+              </p>
+            )}
+            {/* <div
               className={twMerge('ml-auto pl-2 text-xs text-gray600')}
               {...inspectorProps({ fieldId: 'publishedDate' })}
             >
               <FormatDate date={publishedDate} />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
