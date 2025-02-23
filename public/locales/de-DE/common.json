@@ -1,25 +1,24 @@
 {
   "article": {
-    "relatedArticles": "Verwandte Artikel",
-    "featured": "gekennzeichnet"
+    "relatedArticles": "Related recipes",
+    "featured": "featured"
   },
   "landingPage": {
-    "latestArticles": "Neueste Artikel"
+    "latestArticles": "Latest recipes"
   },
   "common": {
-    "homepage": "Startseite",
-    "regionalSettings": "Regionale Einstellungen",
-    "language": "Sprache",
-    "languageDrawer": "Sprachschublade umschalten"
-
+    "regionalSettings": "Regional Settings",
+    "homepage": "Homepage",
+    "language": "Language",
+    "languageDrawer": "Toggle language drawer"
   },
   "footer": {
-    "aboutUs": "über uns",
-    "description": "Unser Unternehmen ist auf die Entwicklung fortschrittlicher Technologien für eine Vielzahl von Branchen spezialisiert. Wir verwenden modernste Techniken und Algorithmen, um intelligente Systeme zu erstellen, die Unternehmen dabei helfen können, Aufgaben zu automatisieren, die Effizienz zu verbessern und Innovationen voranzutreiben.",
-    "powerBy": "Unterstützt von"
+    "aboutUs": "about this site",
+    "description": "Collection of some of Nick and Nicole's favorite recipes to share with their loved ones.",
+    "powerBy": "Powered by"
   },
   "notFound": {
-    "title": "Seite nicht gefunden",
-    "description": "Diese Seite scheint nicht zu existieren. <0>Klicken Sie hier</0>, um zur Startseite zurückzukehren."
+    "title": "Page not found",
+    "description": "This page doesn't seem to exist. <0>Click here</0> to go back the homepage."
   }
 }
