@@ -57,7 +57,7 @@ export default async function Page({ params: { locale } }: LandingPageProps) {
   }
 
   const blogPostsData = await gqlClient.pageBlogPostCollection({
-    limit: 12,
+    limit: 36,
     locale,
     order: PageBlogPostOrder.PublishedDateDesc,
     where: {
